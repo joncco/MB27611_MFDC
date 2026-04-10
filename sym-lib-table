@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MFDC_Library") (type "KiCad") (uri "${KIPRJMOD}/MFDC_Library.kicad_sym") (options "") (descr ""))
+	(lib (name "cbm-steve") (type "Legacy") (uri "C:/Users/jon/Downloads/cbm-kicad-lib-master/cbm-steve.lib") (options "") (descr ""))
+)
