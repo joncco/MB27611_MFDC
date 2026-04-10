@@ -18803,7 +18803,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 289.56) (xy 482.6 289.56)
+			(xy 485.14 289.56) (xy 482.6 289.56)
 		)
 		(stroke
 			(width 0)
@@ -19030,6 +19030,16 @@
 			(type default)
 		)
 		(uuid "6b4b648a-b496-47e2-81ad-9b06a9c26175")
+	)
+	(wire
+		(pts
+			(xy 482.6 280.67) (xy 509.27 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca00b72-ca61-4fbc-a09c-b6bf79d96d68")
 	)
 	(wire
 		(pts
@@ -21253,6 +21263,16 @@
 	)
 	(wire
 		(pts
+			(xy 492.76 289.56) (xy 500.38 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d550706e-5b71-4d76-b291-a03b77d3b381")
+	)
+	(wire
+		(pts
 			(xy 497.84 337.82) (xy 497.84 340.36)
 		)
 		(stroke
@@ -21830,6 +21850,16 @@
 			(type default)
 		)
 		(uuid "f445ea3c-64ac-45e4-9ca9-93af8cae841c")
+	)
+	(wire
+		(pts
+			(xy 509.27 280.67) (xy 509.27 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c24f28-ecf5-408c-aecf-2cb91d8a3361")
 	)
 	(wire
 		(pts
@@ -26587,6 +26617,84 @@
 			(project "MB27611_MFDC"
 				(path "/8a6b2e84-45f0-4b05-b9e6-2d76b2cccb50"
 					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 313.69 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fcf28df-12ca-41c1-8343-a963cbb50c51")
+		(property "Reference" "#PWR052"
+			(at 313.69 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 313.69 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 313.69 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd66c982-64e0-42e8-9e88-a0e74fe8dc04")
+		)
+		(instances
+			(project "MB27611_MFDC"
+				(path "/8a6b2e84-45f0-4b05-b9e6-2d76b2cccb50"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -43444,7 +43552,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 501.65 289.56 90)
+		(at 488.95 289.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -43454,7 +43562,7 @@
 		(dnp no)
 		(uuid "6dd24628-527d-4d04-950f-1041f9c63b7e")
 		(property "Reference" "C4"
-			(at 503.428 288.29 90)
+			(at 490.728 288.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43465,7 +43573,7 @@
 			)
 		)
 		(property "Value" "0.126uF"
-			(at 503.428 290.83 90)
+			(at 490.728 290.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43476,7 +43584,7 @@
 			)
 		)
 		(property "Footprint" "MFDCLIB:C_Rect_L10.0mm_W2.5mm_P14.0mm_MKS4"
-			(at 505.46 288.5948 0)
+			(at 492.76 288.5948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43487,7 +43595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 501.65 289.56 0)
+			(at 488.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43498,7 +43606,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 501.65 289.56 0)
+			(at 488.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43509,7 +43617,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 501.65 289.56 0)
+			(at 488.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43520,7 +43628,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 501.65 289.56 0)
+			(at 488.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43531,7 +43639,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 501.65 289.56 0)
+			(at 488.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43542,7 +43650,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 501.65 289.56 0)
+			(at 488.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43553,7 +43661,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 501.65 289.56 0)
+			(at 488.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43564,7 +43672,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 501.65 289.56 0)
+			(at 488.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43575,7 +43683,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 501.65 289.56 0)
+			(at 488.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43586,7 +43694,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 501.65 289.56 0)
+			(at 488.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55949,6 +56057,83 @@
 				(path "/8a6b2e84-45f0-4b05-b9e6-2d76b2cccb50"
 					(reference "M12")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 500.38 289.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9d68ee1-41e5-429f-8842-91abbdb142f7")
+		(property "Reference" "#PWR053"
+			(at 500.38 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 504.19 291.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 500.38 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 500.38 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 500.38 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69c41cca-066d-48bc-bb0a-74e21729a885")
+		)
+		(instances
+			(project "MB27611_MFDC"
+				(path "/8a6b2e84-45f0-4b05-b9e6-2d76b2cccb50"
+					(reference "#PWR053")
+					(unit 1)
 				)
 			)
 		)
